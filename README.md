@@ -1,3 +1,6 @@
+# Ns3-Gym for 802.11ah
+In this project, it was adapted the Ns3-gym (created for the last NS3 version) to be compatible with the HaLow networks simulator.  
+
 # Ns-3
 [Ns–3](https://www.nsnam.org/) is a discrete-event network simulator for Internet systems, targeted primarily for research and educational use. ns-3 is free software, licensed under the GNU GPLv2 license, and is publicly available for research, development, and use
 # Ns3-Gym
