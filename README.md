@@ -47,7 +47,6 @@ pip3 install --upgrade pip
 sudo apt-get install libzmq5 libzmq5-dev -y
 sudo apt-get install libprotobuf-dev -y
 sudo apt-get install protobuf-compiler -y
-sudo apt-get install -y criu
 ```
 * Update the permissions of the file and then run it:
 ```
@@ -58,7 +57,7 @@ bash dependecies-installer.sh
 * Download or clone the repository:
 ```
 cd ~
-git clone https://gitlab.com/ingricardotoledo/ns3-fa.git
+git clone https://github.com/ingertb/ns3_HaLow_gym.git
 ```
 * Configure and Build Ns-3 project:
 ```
