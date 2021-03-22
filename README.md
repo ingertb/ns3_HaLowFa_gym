@@ -6,7 +6,7 @@ In this project, it was adapted the Ns3-gym (created for the last NS3 version) t
 # Ns3-Gym
 [OpenAI Gym](https://gym.openai.com/) is a toolkit for reinforcement learning (RL) widely used in research. The network simulator [Ns–3](https://www.nsnam.org/) is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. [Ns3-Gym](https://apps.nsnam.org/app/ns3-gym/) is a framework that integrates both [OpenAI Gym](https://gym.openai.com/) and [Ns3-Gym](https://apps.nsnam.org/app/ns3-gym/) in order to encourage usage of RL in networking research.
 
-# Ns3-Gym installation instructions (Ubuntu 18.04.4 LTS)
+# Ns3-Gym installation instructions (Ubuntu 18.04.4 LTS and Ubuntu 20.04 LTS)
 ## 1. Prepare all dependecies:
 
 **Option 1:** Follow the instructions on https://www.nsnam.org/wiki/Installation 
