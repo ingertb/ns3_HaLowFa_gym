@@ -61,7 +61,7 @@ git clone https://github.com/ingertb/ns3_HaLow_gym.git
 ```
 * Configure and Build Ns-3 project:
 ```
-cd <ns-3-folder>
+cd ns3_HaLow_gym
 CXXFLAGS="-std=c++11" ./waf configure --disable-examples --disable-tests
 ./waf
 cp build/lib/libns3-dev-opengym-debug.so build/
@@ -69,25 +69,25 @@ cp build/lib/libns3-dev-opengym-debug.so build/
 ## 3. Install the OpenGym module:
 * Install ns3gym Python module.
 ```
-cd <ns-3-folder>/contrib/opengym/
+cd ns3_HaLow_gym/contrib/opengym/
 sudo pip3 install ./model/ns3gym
 ```
 ## 4. Test the simulator (Optional):
 
 * Test the network simulator by  Running the hello-simulator simulation:
 ```
-cd <ns-3-folder>
+cd ns3_HaLow_gym
 cp examples/tutorial/hello-simulator.cc scratch/
 ./waf --run scratch/hello-simulator
 ```
 * Test the network simulator and the OpenGym module by  Running the opengym simulation:
 1. **Run the simulation:** Open one terminal and then run:
 ```
-cd <ns-3-folder>
+cd ns3_HaLow_gym
 ./waf --run scratch/opengym/opengym
 ```
 2. **Run the agent:** Open a second one terminal and then run::
 ```
-cd <ns-3-folder>/scratch/opengym/
+cd ns3_HaLow_gym/scratch/opengym/
 python3 ./test.py --start=0
 ```
